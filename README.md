@@ -28,3 +28,6 @@ When you verified that you can upload a program to the Arduino, continue by runn
 * **1_Laser** - A simple program showing how to turn on and off the laser
 * **2_ServoSweep** - A program showing how to control the servo motor
 * **3_IR** - A program to read from a remote control
+* **4_RandomServos** - A program moving the servos randomly
+* **5_Turrent** - A program to control two servos using a remote control
+

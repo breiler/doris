@@ -25,7 +25,7 @@ void setup() {
 void loop() {
 
   // A loop that will start at 0 and count up to 180 degrees
-  for (pos = 0; pos <= 180; pos += 1) {
+  for (pos = 20; pos <= 160; pos += 1) {
     // Tell the servo to go to position in variable 'pos'
     myServo.write(pos);
 
@@ -34,7 +34,7 @@ void loop() {
   }
 
     // A loop that will start at 180 and count down to 0 degrees
-  for (pos = 180; pos >= 0; pos -= 1) {
+  for (pos = 160; pos >= 20; pos -= 1) {
     // Tell the servo to go to position in variable 'pos'
     myServo.write(pos);
 
